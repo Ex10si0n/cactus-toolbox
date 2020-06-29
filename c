@@ -29,6 +29,8 @@ Commands:
       g c                   Git Quick Commit
       g p                   Git Quick Pull
       p                     Quick ipython \033[0;36m Quick Calculator\033[0m
+      sh f                  Quick Edit & Source fish config \033[0;36m at ~/.config/fish/config.fish\033[0m
+      sh z                  Quick Edit & Source zsh config \033[0;36m at ~/.zshrc\033[0m
 '''
 class ToolBox:
    
@@ -80,6 +82,16 @@ class ToolBox:
         # Ranger Entry
         if len(args) == 2 and args[1] == 'f':
             os.system('ranger')
+
+        # fish Entry
+        if len(args) == 3 and args[1] == 'sh':
+            if args[2] == 'f':
+                os.system('vim ~/.config/fish/config.fish')
+
+        # zsh Entry
+        if len(args) == 3 and args[1] == 'sh':
+            if args[2] == 'z':
+                os.system('vim ~/.zshrc')
 
     def application(name):
         os.system('open -a '+name+'.app')
