@@ -19,15 +19,20 @@ Commands:
       ip                    Get Host/Proxy IP address.
       f                     Quick Ranger File Manager.  Ranger
     
-  [macOS]
+  [macOS Features]
       a [app name]          Open Applications.  From Application Folder
       s                     Call Siri.
     
+  [Utilities]
+      c txt [file name]     Convert .docx to .txt
+
   [Quick Commands]
       g                     Git Status
       g c                   Git Quick Commit
       g p                   Git Quick Pull
       p                     Quick ipython  Quick Calculator
+      sh f                  Quick Edit & Source fish config  at ~/.config/fish/config.fish
+      sh z                  Quick Edit & Source zsh config  at ~/.zshrc
 ```
 
 ## Screenshots

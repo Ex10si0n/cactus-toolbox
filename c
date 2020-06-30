@@ -20,10 +20,13 @@ Commands:
       ip                    Get Host/Proxy IP address.
       f                     Quick Ranger File Manager. \033[0;36m Ranger\033[0m
     
-  [macOS]
+  [macOS Features]
       a [app name]          Open Applications. \033[0;36m From Application Folder\033[0m
       s                     Call Siri.
     
+  [Utilities]
+      c txt [file name]     Convert .docx to .txt
+
   [Quick Commands]
       g                     Git Status
       g c                   Git Quick Commit
@@ -78,6 +81,11 @@ class ToolBox:
         # iPython Entry
         if len(args) == 2 and args[1] == 'p':
             os.system('ipython')
+
+        # Convert Entry
+        if len(args) == 4 and args[1] == 'c':
+            if args[2] == 'txt':
+                os.system('textutil -convert txt '+args[3])
 
         # Ranger Entry
         if len(args) == 2 and args[1] == 'f':
