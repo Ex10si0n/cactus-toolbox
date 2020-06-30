@@ -31,8 +31,8 @@ Commands:
       g c                   Git Quick Commit
       g p                   Git Quick Pull
       p                     Quick ipython  Quick Calculator
-      sh f                  Quick Edit & Source fish config  at ~/.config/fish/config.fish
-      sh z                  Quick Edit & Source zsh config  at ~/.zshrc
+      sh f                  Quick Edit fish config  at ~/.config/fish/config.fish
+      sh z                  Quick Edit zsh config  at ~/.zshrc
 ```
 
 ## Screenshots

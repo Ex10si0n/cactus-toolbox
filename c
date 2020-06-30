@@ -32,8 +32,8 @@ Commands:
       g c                   Git Quick Commit
       g p                   Git Quick Pull
       p                     Quick ipython \033[0;36m Quick Calculator\033[0m
-      sh f                  Quick Edit & Source fish config \033[0;36m at ~/.config/fish/config.fish\033[0m
-      sh z                  Quick Edit & Source zsh config \033[0;36m at ~/.zshrc\033[0m
+      sh f                  Quick Edit fish config \033[0;36m at ~/.config/fish/config.fish\033[0m
+      sh z                  Quick Edit zsh config \033[0;36m at ~/.zshrc\033[0m
 '''
 class ToolBox:
    
