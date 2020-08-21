@@ -9,7 +9,7 @@ import os, sys
 usage = \
 '''
 \033[0;36mWelcome to 🌵cactus-ToolBox by Ex10si0n.\033[0m
-Usage: 
+Usage:
   c <commands> [words]
 
 Commands:
@@ -19,11 +19,11 @@ Commands:
       w [city name]         Display Location Weather. \033[0;36m Weather by wttr.in\033[0m
       ip                    Get Host/Proxy IP address.
       f                     Quick Ranger File Manager. \033[0;36m Ranger\033[0m
-    
+
   [macOS Features]
       a [app name]          Open Applications. \033[0;36m From Application Folder\033[0m
       s                     Call Siri.
-    
+
   [Utilities]
       c txt [file name]     Convert .docx to .txt
 
@@ -36,7 +36,7 @@ Commands:
       sh z                  Quick Edit zsh config \033[0;36m at ~/.zshrc\033[0m
 '''
 class ToolBox:
-   
+
     def commands(args):
 
         if len(args) == 1:
